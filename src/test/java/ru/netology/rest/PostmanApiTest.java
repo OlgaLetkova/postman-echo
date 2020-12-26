@@ -16,6 +16,6 @@ void shouldCheckRequestPost(){
             .post("/post")
             .then()
             .statusCode(200)
-            .body("data", equalTo("20.08.2020"));
+            .body("data", equalTo("20.06.2020"));
 }
 }
